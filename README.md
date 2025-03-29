@@ -27,4 +27,11 @@ This project combines **YOLO (You Only Look Once) object detection** and a **CNN
 📊 Shows vehicle count & green light duration on the image.  
 
 ---
+dataset to train cnn model
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("mohamedmaher5/vehicle-classification")
+
+print("Path to dataset files:", path)
 
